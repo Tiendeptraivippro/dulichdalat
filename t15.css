@@ -1,0 +1,126 @@
+@charset "utf-8";
+body {
+	width:1000px;
+	height:1000px;
+	margin:auto;
+}
+#thanhtrang {
+	margin:auto;
+}
+#thanhtrang img {
+	width: 1000px;
+	height: 30px;
+}
+#banner {
+	margin:auto;
+}
+#banner img {
+	width:1000px;
+	height:100px;
+}
+#menu {
+	width:1000px;
+	height:30px;
+	background-image:url(image/thangngang.jpg);
+}
+#menu ul {
+	float:left;
+	height:30px;
+	display:flex;
+	padding:0;
+	margin:0;
+}
+#menu ul li {
+	list-style:none;
+	
+}
+#menu ul li a {
+	text-decoration:none;
+}
+#content {
+	padding-top:20px;
+	display:flex;
+
+}
+.contenttop	img {
+	width:790px;
+	height:150px;
+}
+.contentbot ul {
+	margin-top:40px;
+	margin-bottom:0px;
+	padding:0px;
+}
+.contentbot ul li {
+	list-style:none;
+	width:400px;
+	height:auto;
+	float:left; 
+}
+.contentbot ul li a h5 {
+	color:red;
+}
+.contentbot ul li a p {
+	color:black;
+}
+.contentbot ul li a{
+	list-style:none;
+	text-decoration:none;
+}
+.contentbot ul li img {
+	width:120px;
+	height:100px;
+	display:block;
+	float:left;
+}
+.contentright {
+	width:200px;
+	height:auto;
+}
+.contentright ul {
+	padding:0;
+	margin:0;	
+}
+.contentright ul li {
+	padding-left:5px;
+	list-style:none;
+	border-bottom: solid 1px #FFCC00;
+}
+.contentright ul li a p {
+	
+}
+.contentright ul li a {
+	text-decoration:none;
+	color:black;	
+}
+.contentright ul li a img {
+	float:left;	
+}
+.contentright table {
+	border-style:none;
+}
+.contentright table td {
+	border-style:none;
+	text-align:top;
+}
+.contentright table td input {
+	width:75px;
+	float:left;
+}
+.contentright table td textarea {
+	width:135px;
+	height:135px;
+	float:left;
+}
+.button {
+	padding:1px 2px 1px 2px;
+}
+	
+#footer {
+	text-align:center;
+	background-color:#CCC;
+}
+
+
+
+
